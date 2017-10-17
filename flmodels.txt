@@ -1,0 +1,839 @@
+(dp1
+S'BD'
+p2
+(S' FLD120 Classic Legacy '
+S'8'
+tp3
+sS'BE'
+p4
+(S' FLS112 Legacy '
+S'8'
+tp5
+sS'BF'
+p6
+(S' FL112 '
+S'7'
+tp7
+sS'BG'
+p8
+(S' FL112 '
+S'8'
+tp9
+sS'BA'
+p10
+(S' CST120 '
+S'7'
+tp11
+sS'BB'
+p12
+(S' CST120 '
+S'8'
+tp13
+sS'BC'
+p14
+(S' CST120 Glider '
+S'Glider'
+p15
+tp16
+sS'BL'
+p17
+(S' FL50 '
+S'6'
+tp18
+sS'BM'
+p19
+(S' FL50 '
+S'7'
+tp20
+sS'BN'
+p21
+(S' FL60 '
+S'5'
+tp22
+sS'BH'
+p23
+(S' FL112 Glider '
+g15
+tp24
+sS'BJ'
+p25
+(S' FL50 '
+S'4'
+tp26
+sS'BK'
+p27
+(S' FL50 '
+S'5'
+tp28
+sS'BT'
+p29
+(S' FL70 '
+S'7'
+tp30
+sS'BU'
+p31
+(S' FL70 '
+S'8'
+tp32
+sS'BV'
+p33
+(S' FL80 '
+S'6'
+tp34
+sS'BW'
+p35
+(S' FL80 '
+S'7'
+tp36
+sS'BP'
+p37
+(S' FL60 '
+S'6'
+tp38
+sS'BR'
+p39
+(S' FL60 '
+S'7'
+tp40
+sS'BS'
+p41
+(S' FL70 '
+S'6'
+tp42
+sS'BX'
+p43
+(S' FL80 '
+S'8'
+tp44
+sS'BY'
+p45
+(S' FL106 '
+S'6'
+tp46
+sS'BZ'
+p47
+(S' FL106 '
+S'7'
+tp48
+sS'G7'
+p49
+(S' Coronado 114 RHD '
+S'8'
+tp50
+sS'G6'
+p51
+(S' 108SD '
+g15
+tp52
+sS'G5'
+p53
+(S' 108SD '
+S'8'
+tp54
+sS'G4'
+p55
+(S' 114 SD '
+g15
+tp56
+sS'G3'
+p57
+(S' 114 SD '
+S'8'
+tp58
+sS'G2'
+p59
+(S' MD109 Military '
+S'8'
+tp60
+sS'G1'
+p61
+(S' M2 112 Glider '
+g15
+tp62
+sS'G0'
+p63
+(S' 108SD '
+S'7'
+tp64
+sS'G9'
+p65
+(S' 114 SD '
+S'7'
+tp66
+sS'G8'
+p67
+(S' Coronado 114 RHD '
+g15
+tp68
+sS'GW'
+p69
+(S' Coronado 122 RHD Glider '
+g15
+tp70
+sS'GV'
+p71
+(S' Coronado 122 RHD '
+S'8'
+tp72
+sS'GU'
+p73
+(S' M2 106 V Glider '
+g15
+tp74
+sS'GT'
+p75
+(S' Coronado 132 '
+g15
+tp76
+sS'GS'
+p77
+(S' Coronado SD 122 Glider '
+g15
+tp78
+sS'GR'
+p79
+(S' Coronado 122 '
+g15
+tp80
+sS'GP'
+p81
+(S' Coronado 122 '
+S'8'
+tp82
+sS'GZ'
+p83
+(S' Coronado 122 '
+S'7'
+tp84
+sS'GY'
+p85
+(S' SD122 '
+S'7'
+tp86
+sS'GX'
+p87
+(S' Coronado 132 '
+S'7'
+tp88
+sS'GG'
+p89
+(S' Cascadia 113? Sleepercab '
+S'7'
+tp90
+sS'GF'
+p91
+(S' Cascadia 125? Sleepercab '
+g15
+tp92
+sS'GE'
+p93
+(S' Cascadia 125? Day cab '
+S'8'
+tp94
+sS'GD'
+p95
+(S' Cascadia 125? Day cab '
+S'7'
+tp96
+sS'GC'
+p97
+(S' Cascadia 113? Sleepercab '
+g15
+tp98
+sS'GB'
+p99
+(S' Cascadia 113? Day cab '
+S'8'
+tp100
+sS'GA'
+p101
+(S' Cascadia 113? Day cab '
+S'7'
+tp102
+sS'GN'
+p103
+(S' SD122 '
+S'8'
+tp104
+sS'GM'
+p105
+(S' Coronado 132 '
+S'8'
+tp106
+sS'GL'
+p107
+(S' Cascadia 125? Sleepercab '
+S'8'
+tp108
+sS'GK'
+p109
+(S' Cascadia 125? Sleepercab '
+S'7'
+tp110
+sS'GJ'
+p111
+(S' Cascadia 132? '
+g15
+tp112
+sS'GH'
+p113
+(S' Cascadia 113? Sleepercab '
+S'8'
+tp114
+sS'B4'
+p115
+(S' FC70 Cargo '
+S'8'
+tp116
+sS'B5'
+p117
+(S' FC 80 Cargo '
+S'6'
+tp118
+sS'B6'
+p119
+(S' FC 80 Cargo '
+S'7'
+tp120
+sS'B7'
+p121
+(S' FC 80 Cargo '
+S'8'
+tp122
+sS'B0'
+p123
+(S' Sport Chassis '
+S'7'
+tp124
+sS'B1'
+p125
+(S' FL106 '
+S'8'
+tp126
+sS'B2'
+p127
+(S' FC70 Cargo '
+S'6'
+tp128
+sS'B3'
+p129
+(S' FC70 Cargo '
+S'7'
+tp130
+sS'B9'
+p131
+(S' Sport chassis '
+S'6'
+tp132
+sS'HR'
+p133
+(S' New Cascadia 116? Sleepercab '
+g15
+tp134
+sS'HS'
+p135
+(S' New Cascadia 116? Day cab '
+S'7'
+tp136
+sS'HP'
+p137
+(S' New Cascadia 116? Sleepercab '
+S'8'
+tp138
+sS'HT'
+p139
+(S' New Cascadia 116? Day cab '
+S'8'
+tp140
+sS'HU'
+p141
+(S' New Cascadia 116? Day cab '
+p142
+g15
+tp143
+sS'HJ'
+p144
+(S' New Cascadia 126? Sleepercab '
+g15
+tp145
+sS'HK'
+p146
+(S' New Cascadia 126? Day cab '
+S'7'
+tp147
+sS'HH'
+p148
+(S' New Cascadia 126? Sleepercab '
+S'8'
+tp149
+sS'HN'
+p150
+(S' New Cascadia 116? Sleepercab '
+S'7'
+tp151
+sS'HL'
+p152
+(S' New Cascadia 126? Day cab '
+S'8'
+tp153
+sS'HM'
+p154
+(S' New Cascadia 126? Day cab '
+g15
+tp155
+sS'HB'
+p156
+(S' Cascadia 125? Day cab '
+g15
+tp157
+sS'HC'
+p158
+(S' 108SD '
+S'6'
+tp159
+sS'HA'
+p160
+(S' Cascadia 113? Day cab '
+g15
+tp161
+sS'HF'
+p162
+(S' M2 112 Medium Duty '
+S'6'
+tp163
+sS'HG'
+p164
+(S' New Cascadia 126? Sleepercab '
+S'7'
+tp165
+sS'HD'
+p166
+(S' M2 100 '
+S'7'
+tp167
+sS'HE'
+p168
+(S' M2 112V Glider '
+g15
+tp169
+sS'FA'
+p170
+(S' Columbia 112 '
+g15
+tp171
+sS'FB'
+p172
+(S' Coronado CC132 Glider '
+g15
+tp173
+sS'FC'
+p174
+(S' M2 106 Sport chassis '
+S'5'
+tp175
+sS'FD'
+p176
+(S' M2 106 Sport chassis '
+S'6'
+tp177
+sS'FE'
+p178
+(S' M2 106 Sport chassis '
+S'7'
+tp179
+sS'FF'
+p180
+(S' M2 112 Sport chassis '
+S'5'
+tp181
+sS'FG'
+p182
+(S' M2 112 Sport chassis '
+S'6'
+tp183
+sS'FH'
+p184
+(S' M2 112 Sport chassis '
+S'7'
+tp185
+sS'FJ'
+p186
+(S' Classic 120 '
+g15
+tp187
+sS'C9'
+p188
+(S' Sport chassis '
+S'5'
+tp189
+sS'C8'
+p190
+(S' M2 106 Medium Duty '
+S'4'
+tp191
+sS'C3'
+p192
+(S' M2 106 V Heavy Duty '
+S'8'
+tp193
+sS'C2'
+p194
+(S' M2 106 V Heavy Duty '
+S'7'
+tp195
+sS'C1'
+p196
+(S' M2 106 V Heavy Duty '
+S'6'
+tp197
+sS'C7'
+p198
+(S' M2 112V Heavy Duty '
+S'8'
+tp199
+sS'C6'
+p200
+(S' M2 112V Heavy Duty '
+S'7'
+tp201
+sS'C5'
+p202
+(S' M2 112 Medium Duty '
+S'8'
+tp203
+sS'C4'
+p204
+(S' M2 112 Medium Duty '
+S'7'
+tp205
+sS'CK'
+p206
+(S' FLD132 XL classic/84" sleeper MY2001 '
+S'7'
+tp207
+sS'CJ'
+p208
+(S' FLD120 Glider/84" sleeper MY2001 '
+g15
+tp209
+sS'CH'
+p210
+(S' FLD120/84" sleeper MY2001 '
+S'8'
+tp211
+sS'CN'
+p212
+(S' FL112 '
+S'6'
+tp213
+sS'CM'
+p214
+(S' FLD 132 XL Glider/84? Slpr '
+g15
+tp215
+sS'CL'
+p216
+(S' FLD132 XL classic/84" sleeper MY2001 '
+S'8'
+tp217
+sS'CC'
+p218
+(S' FL70 Glider '
+g15
+tp219
+sS'CB'
+p220
+(S' FL60 Glider '
+g15
+tp221
+sS'CA'
+p222
+(S' FL106 Glider '
+g15
+tp223
+sS'CG'
+p224
+(S' FLD120/84" sleeper MY2001 '
+S'7'
+tp225
+sS'CF'
+p226
+(S' Condor '
+S'8'
+tp227
+sS'CE'
+p228
+(S' Condor '
+S'7'
+tp229
+sS'CD'
+p230
+(S' FL80 Glider '
+g15
+tp231
+sS'CZ'
+p232
+(S' M2 106 V Heavy Duty '
+S'5'
+tp233
+sS'CY'
+p234
+(S' M2 106 Medium Duty '
+S'8'
+tp235
+sS'CX'
+p236
+(S' M2 106 Medium Duty '
+S'7'
+tp237
+sS'CS'
+p238
+(S' M2 100 '
+S'4'
+tp239
+sS'CR'
+p240
+(S' Coronado CC132 '
+S'8'
+tp241
+sS'CP'
+p242
+(S' FLD120 Military Reman '
+S'8'
+tp243
+sS'CW'
+p244
+(S' M2 106 Medium Duty '
+S'6'
+tp245
+sS'CV'
+p246
+(S' M2 106 Medium Duty '
+S'5'
+tp247
+sS'CU'
+p248
+(S' M2 100 '
+S'6'
+tp249
+sS'CT'
+p250
+(S' M2 100 '
+S'5'
+tp251
+sS'F0'
+p252
+(S' Columbia 112 '
+S'8'
+tp253
+sS'F1'
+p254
+(S' Sport chassis 112 '
+S'6'
+tp255
+sS'F2'
+p256
+(S' FLB High '
+g15
+tp257
+sS'F3'
+p258
+(S' Sport Chassis 112 '
+S'7'
+tp259
+sS'F4'
+p260
+(S' Coronado CC132 '
+S'7'
+tp261
+sS'F5'
+p262
+(S' Classic 120 '
+S'7'
+tp263
+sS'F6'
+p264
+(S' Classic 120 '
+S'8'
+tp265
+sS'F7'
+p266
+(S' Condor Glider '
+g15
+tp267
+sS'F8'
+p268
+(S' M2 106 Medium Glider '
+g15
+tp269
+sS'F9'
+p270
+(S' Columbia 112 '
+S'7'
+tp271
+sS'A1'
+p272
+(S' C112 Glider '
+g15
+tp273
+sS'A0'
+p274
+(S' CST112 Glider '
+g15
+tp275
+sS'A3'
+p276
+(S' C120 '
+S'8'
+tp277
+sS'A2'
+p278
+(S' C120 '
+S'7'
+tp279
+sS'A5'
+p280
+(S' Columbia 120 '
+S'7'
+tp281
+sS'A4'
+p282
+(S' C120 Glider '
+g15
+tp283
+sS'A7'
+p284
+(S' Columbia 120 Glider '
+g15
+tp285
+sS'A6'
+p286
+(S' Columbia 120 '
+S'8'
+tp287
+sS'A9'
+p288
+(S' CST112 '
+S'8'
+tp289
+sS'A8'
+p290
+(S' CST112 '
+S'7'
+tp291
+sS'AA'
+p292
+(S' FLB Glider '
+g15
+tp293
+sS'AC'
+p294
+(S' FLD112 '
+S'8'
+tp295
+sS'AB'
+p296
+(S' FLD112 '
+S'7'
+tp297
+sS'AE'
+p298
+(S' FLD112 SD '
+S'8'
+tp299
+sS'AD'
+p300
+(S' FLD112 Glider '
+g15
+tp301
+sS'AG'
+p302
+(S' FLD120 '
+S'7'
+tp303
+sS'AF'
+p304
+(S' FLD112 SD Glider '
+g15
+tp305
+sS'AH'
+p306
+(S' FLD120 '
+S'8'
+tp307
+sS'AK'
+p308
+(S' FLD120 SD '
+S'7'
+tp309
+sS'AJ'
+p310
+(S' FLD120 Glider '
+g15
+tp311
+sS'AM'
+p312
+(S' FLD120 SD Glider '
+g15
+tp313
+sS'AL'
+p314
+(S' FLD120 SD '
+S'8'
+tp315
+sS'AN'
+p316
+(S' FLD132 XL Classic '
+S'7'
+tp317
+sS'AP'
+p318
+(S' FLD132 XL Classic '
+S'8'
+tp319
+sS'AS'
+p320
+(S' FLD 120 Military '
+S'7'
+tp321
+sS'AR'
+p322
+(S' FLD132 XL Glider '
+g15
+tp323
+sS'AU'
+p324
+(S' FLD 120 Mil Glider '
+g15
+tp325
+sS'AT'
+p326
+(S' FLD 120 Military '
+S'8'
+tp327
+sS'AW'
+p328
+(S' Argosy '
+S'8'
+tp329
+sS'AV'
+p330
+(S' Argosy '
+S'7'
+tp331
+sS'AY'
+p332
+(S' C112 '
+S'7'
+tp333
+sS'AX'
+p334
+(S' Argosy Glider '
+g15
+tp335
+sS'AZ'
+p336
+(S' C112 '
+S'8'
+tp337
+s.
