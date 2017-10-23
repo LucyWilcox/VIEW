@@ -1,19 +1,26 @@
 import json
+import requests
 import csv
 import cPickle as pickle
 from bs4 import BeautifulSoup as bs
 import urllib
 import time
 
-# Peterbilt vin info: https://vpic.nhtsa.dot.gov/mid/home/displayfile/6211
-# Freightliner vin info: https://vpic.nhtsa.dot.gov/mid/home/displayfile/32488, https://vpic.nhtsa.dot.gov/mid/home/displayfile/32228
+"""
+NOTICE: NO LONGER USED
+
+To get make and model information for each manufacture
+
+Peterbilt vin info: https://vpic.nhtsa.dot.gov/mid/home/displayfile/6211
+Freightliner vin info: https://vpic.nhtsa.dot.gov/mid/home/displayfile/32488, https://vpic.nhtsa.dot.gov/mid/home/displayfile/32228
+
+"""
+
 
 FREIGHTLINER_WMI = set({'1FU', '1FV', '2FU', '2FV' '3AK', '3AL', '4UZ'})
 NAVISTAR_WMI = set({'HT', 'HS', 'HV', 'HP', 'HC', 'KA', 'B4', 'T4', 'WE'})
 HINO_WMI = set({'JHA', 'JHB', '5PV', '2AY'})
 MACK_WMI = set({'1M1', '1M2', '1M3', '1M4'})
-FORD_WMI = set({''})
-#Isuzu
 
 def get_models(manufacture_wmi, manufacture):
     vins = set()
