@@ -60,7 +60,6 @@ def fars_files():
         
 def fars_reader(models):
     crashes = {}
-    navistar_vin = set()
     for reader in fars_files():
         used_vins = set() # were seeing dupes
         for row in reader:

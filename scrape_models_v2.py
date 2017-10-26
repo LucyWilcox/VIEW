@@ -22,7 +22,7 @@ def get_models(start, end, prevelance, trucks):
 
     vins_s = ";".join(vins)
 
-    url = 'https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVINValuesBatch/'# + vins_s + '?format=json'
+    url = 'https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVINValuesBatch/'
     post_fields = {'format': 'json', 'data':vins_s};
     r = requests.post(url, data=post_fields)
     r = r.json()
@@ -41,15 +41,15 @@ def get_models(start, end, prevelance, trucks):
 
 
 def run_all_models():
-    # clear_files()
+    # clear_files() # uncomment this if running again or everything will be added to past vins!!!
     trucks = load_trucks()
     total_trucks = len(trucks)
-    for i in range(5000, total_trucks, 1000):
+    for i in range(0, total_trucks, 1000):
         prevelance_file = open('prevelance.txt', 'rb')
         prevelance = pickle.load(prevelance_file)
         prevelance_file.close()
         start, end = i, i+1000
-        print start, end
+        print start, end # incase there's a failure can start were we left off
         if end < total_trucks:
             get_models(start, end, prevelance, trucks)
         else:
