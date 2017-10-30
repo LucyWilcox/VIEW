@@ -1,0 +1,7 @@
+config.py
+
+venv
+*.pyc
+staticfiles
+.env
+db.sqlite3
