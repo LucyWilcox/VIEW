@@ -4,6 +4,7 @@ import cPickle as pickle
 import os
 import requests
 import psycopg2
+import config as config
 
 def fars_files():
     PATH = 'FARS'
@@ -46,6 +47,23 @@ def get_vin_info():
     pickle.dump(crashes, crash_file)
     crash_file.close()
 
+# def new_prevelance():
+#     prevalence_file = open('prevalence2.txt', 'rb')
+#     prevalence = pickle.load(prevalence_file)
+#     prevalence_file.close()
+
+#     new_prev = dict()
+
+#     for truck, num_trucks in prevalence.iteritems():
+#         truck_id = truck[:3]
+#         weight = truck[3]
+#         if truck_id in new_prev:
+#             pass
+#         else:
+#             pass
+
+# new_prevelance()
+
 def crashes_per_model():
     prevalence_file = open('prevalence2.txt', 'rb')
     prevalence = pickle.load(prevalence_file)
@@ -83,7 +101,6 @@ def crash_per_class(crash_stats):
         else:
             classes[t_class] = (model_prev, crash_prev)
 
-
     for c, v in classes.iteritems():
         if len(c) < 60 and c[:7] != "Class 2":
             print c, float(v[1])/v[0]*100, v[1], v[0]
@@ -91,15 +108,93 @@ def crash_per_class(crash_stats):
 
 crash_stats = crashes_per_model()
 # print len(crash_stats)
+# crash_per_class(crash_stats)
 # print crash_stats
 
-try:
-    con = psycopg2.connect(DATABASE_URI)
+def add_to_new_db(crash_stats):
+    DATABASE_URI = config.DATABASE_URI2
+    trucks = dict()
+    for truck, stats in crash_stats.iteritems():
+        make, model, series, gvwr = str(truck[0]), str(truck[1]), str(truck[2]), str(truck[3])
+        crashes, prev, pcrashes = int(stats[0]), int(stats[1]), float(stats[2])
+        if gvwr[:7] != "Class 2" and gvwr[:7] != "Class 3" and gvwr[:7] != "Class 1":
+            if (make, model, series) in trucks:
+                p, c = trucks[(make, model, series)] 
+                p += prev
+                c += crashes
+                trucks[(make, model, series)] = (p, c)
+            else:
+                trucks[(make, model, series)] = (prev, crashes)
+    conn = psycopg2.connect(DATABASE_URI)
+    curr = conn.cursor()
+    for truck, stats in trucks.iteritems():
+        make, model, series = str(truck[0]), str(truck[1]), str(truck[2])
+        crashes, prev = int(stats[0]), int(stats[1])
+        sql = "INSERT INTO trucks (make, model, series, prev, crashes) VALUES ('%s', '%s', '%s', %i, %i;" %(make, model, series, prev, crashes)
+        curr.execute(sql)
+        conn.commit()
+    curr.close()
+    conn.close()
 
-    table_name = "Trucks"
-except:
-    print "I am unable to connect to the database"
-# # print crash_stats
-# crash_per_class(crash_stats)
+add_to_new_db(crash_stats)
 
 
+def add_to_db(crash_stats):
+    DATABASE_URI = config.DATABASE_URI
+    conn = psycopg2.connect(DATABASE_URI)
+    curr = conn.cursor()
+    for truck, stats in crash_stats.iteritems():
+        make, model, series, gvwr = str(truck[0]), str(truck[1]), str(truck[2]), str(truck[3])
+        crashes, prev, pcrashes = int(stats[0]), int(stats[1]), float(stats[2])
+        sql = "INSERT INTO trucks (make, model, series, gvwr, prev, crashes, pcrashes) VALUES ('%s', '%s', '%s', '%s', %i, %i, %f);" %(make, model, series, gvwr, prev, crashes, pcrashes)
+        # print sql
+        curr.execute(sql)
+        conn.commit()
+    curr.close()
+    conn.close()
+
+
+def view_db():
+    DATABASE_URI = config.DATABASE_URI
+    conn = psycopg2.connect(DATABASE_URI)
+    curr = conn.cursor()
+    curr.execute("SELECT * FROM trucks")
+    for r in curr:
+        print r
+    curr.close()
+    conn.close() 
+
+
+def delete_under_class4():
+    DATABASE_URI = config.DATABASE_URI
+    conn = psycopg2.connect(DATABASE_URI)
+    curr = conn.cursor()
+    curr.execute("SELECT * FROM trucks")
+    to_remove = []
+    for r in curr:
+        gvwr = r[4]
+        if gvwr[:7] == "Class 2" or gvwr[:7] == "Class 3" or gvwr[:7] == "Class 1":
+            to_remove.append(r[0])
+
+    for idn in to_remove:
+        curr.execute("DELETE FROM trucks WHERE id = %s" % idn)
+        conn.commit()
+    curr.close()
+    conn.close()
+
+
+    # curr.execute("SELECT * FROM trucks WHERE LENGTH(gvwr) > 60")
+    # for r in curr:
+    #     #curr.execute("DELETE from trucks WHERE")
+    #     gvwrs = r[4].split(', ')
+    #     idn = r[0]
+    #     if gvwrs[0] == gvwrs[1]:
+    #         lst = list(r)
+    #         lst[4] = gvwrs[0]
+    #         print r
+
+#delete_under_class_4()   
+    # if len(c) < 60 and c[:7] != "Class 2":
+    #     print c, float(v[1])/v[0]*100, v[1], v[0]
+# add_to_db(crash_stats)
+# view_db()
