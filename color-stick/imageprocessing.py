@@ -30,30 +30,31 @@ class ImageProcessing:
 			# cv2.waitKey(0)
 			yield split
 
-	def check_color(self, color_bounds):
-		count = 0
-		for s in self.split_image():
-			lower = np.array(color_bounds[0], dtype='uint8')
-			upper = np.array(color_bounds[1], dtype='uint8')
+	def check_color(self, color_bounds, image):
+		lower = np.array(color_bounds[0], dtype='uint8')
+		upper = np.array(color_bounds[1], dtype='uint8')
 
-			mask = cv2.inRange(s, lower, upper)
-			has_color = cv2.countNonZero(mask)
-			if has_color > 50:
-				count += 1
+		mask = cv2.inRange(image, lower, upper)
+		has_color = cv2.countNonZero(mask)
+		if has_color > 50:
+			return True
 
-			#output = cv2.bitwise_and(s, s, mask=mask)
+			#output = cv2.bitwise_and(image, image, mask=mask)
 			# cv2.imshow("image", output)
 			# cv2.waitKey(0)
-		return count	
+		return False	
 
 	def check_colors(self):
 		color_score = 0
-		for color, val in self.color_vals.iteritems():
-			count = self.check_color(self.color_gbrs[color])
-			color_score += count * val
+		for image in self.split_image():
+			for color, val in self.color_vals.iteritems():
+				if self.check_color(self.color_gbrs[color], image):
+					color_score += val
+					break
 		return color_score
 
 	def get_score(self):
+		# pure score, not out of 100 or anything
 		ratio = self.width / (self.split_val * self.parts)
 		return ratio * self.check_colors()
 
@@ -61,8 +62,16 @@ class ImageProcessing:
 gbrs = {'TEAL':([75, 85, 25], [120, 150, 60])}
 vals = {'TEAL': 1}
 
+# gbrs = {'RED': ([30, 20, 150], [40, 30, 190]), 
+# 	'BLUE': ([130, 180, 55], [150, 210, 75]),
+# 	'PINK': ([110, 165, 230], [135, 180, 250]),
+# 	'YELLOW': ([220, 115, 215], [235, 130, 235]),
+# 	'ORANGE': ([180, 110, 240], [200, 135, 265]),
+# 	'GREEN': ([210, 135, 170], [235, 155, 195])
+# 	}
+# vals = {'RED': 6, 'BLUE': 5, 'PINK': 4, 'YELLOW': 3, 'ORANGE': 2, 'GREEN': 1}
+
 image1 = cv2.imread('image1.jpg')
 
 i = ImageProcessing(image1, 500, gbrs, vals)
-# i.check_colors()
 print i.get_score()
