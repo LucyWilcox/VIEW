@@ -1,0 +1,3485 @@
+(dp1
+(VFREIGHTLINER
+p2
+VCST120
+p3
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p4
+tp5
+I50
+s(VFORD
+p6
+VE-350
+p7
+VEconoline/E-series
+p8
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p9
+tp10
+I51
+s(VFREIGHTLINER
+p11
+VM2
+p12
+V106 Medium Duty
+p13
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p14
+tp15
+I4443
+s(VKENWORTH
+p16
+VT3 Series
+p17
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p18
+tp19
+I294
+s(VGMC
+p20
+VC5
+p21
+V5000 Medium Duty
+p22
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p23
+tp24
+I200
+s(VTEREX ADVANCE MIXER
+p25
+VTerex Advance Mixer
+p26
+VGlider (Remanufactured) Truck
+p27
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p28
+tp29
+I50
+s(VFORD
+p30
+VE-350
+p31
+VEconoline
+p32
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p33
+tp34
+I57
+s(VOSHKOSH
+p35
+VConcrete
+p36
+VCommercial
+p37
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p38
+tp39
+I59
+s(VISUZU
+p40
+VT7F
+p41
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p42
+tp43
+I92
+s(VVOLVO TRUCK 
+p44
+VWG
+p45
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p46
+tp47
+I167
+s(VHINO
+p48
+VConventional Type Truck
+p49
+VConventional or Conventional Low Profile Truck 
+p50
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p51
+tp52
+I125
+s(VFREIGHTLINER
+p53
+VMT 45G Front Gasoline Engine Walk in Van Chassis
+p54
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p55
+tp56
+I64
+s(VISUZU
+p57
+VNPR
+p58
+V
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p59
+tp60
+I98
+s(VINTERNATIONAL
+p61
+VF-2674
+p62
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p63
+tp64
+I214
+s(VWORKHORSE
+p65
+VW42
+p66
+VForward Control
+p67
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p68
+tp69
+I310
+s(VGMC
+p70
+VSierra
+p71
+V
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p72
+tp73
+I131
+s(VGMC
+p74
+VP Truck Forward
+p75
+VForward Control
+p76
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p77
+tp78
+I54
+s(VCHEVROLET
+p79
+VC5
+p80
+V5000 Medium Duty
+p81
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p82
+tp83
+I66
+s(VMITSUBISHI FUSO
+p84
+VFM657
+p85
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p86
+tp87
+I52
+s(VGMC
+p88
+VSierra
+p89
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p90
+tp91
+I245
+s(VWORKHORSE
+p92
+VW62
+p93
+VForward Control
+p94
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p95
+tp96
+I105
+s(VFORD
+p97
+VLow Cab Forward
+p98
+V450
+p99
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p100
+tp101
+I159
+s(VINTERNATIONAL
+p102
+V4500/4700 LPX
+p103
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p104
+tp105
+I72
+s(VFORD
+p106
+VE-450
+p107
+VEconoline/E-series
+p108
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p109
+tp110
+I449
+s(VGMC
+p111
+VC7
+p112
+V7000 Medium Duty
+p113
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p114
+tp115
+I1361
+s(VAUTOCAR
+p116
+VXpeditor
+p117
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p118
+tp119
+I85
+s(VINTERNATIONAL
+p120
+VDF597
+p121
+VPayStar 5900i
+p122
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p123
+tp124
+I78
+s(VFORD
+p125
+VF-750
+p126
+VSuper Duty - Dual Rear Wheel
+p127
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p128
+tp129
+I67
+s(VINTERNATIONAL
+p130
+VSF647
+p131
+VWorkStar 7600
+p132
+VClass 8: 33,001 lb and above (14,969 kg and above), Class 8: 33,001 lb and above (14,969 kg and above)
+p133
+tp134
+I56
+s(VECONOLINE TRAILER, INC
+p135
+VEconoline Trailer, INC
+p136
+V7 ton / 2 axle
+p137
+V
+tp138
+I72
+s(VFORD
+p139
+VF-Super Duty
+p140
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p141
+tp142
+I1182
+s(VWESTERN STAR
+p143
+V4900
+p144
+VEX
+p145
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p146
+tp147
+I119
+s(VMACK
+p148
+VLE
+p149
+V600
+p150
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p151
+tp152
+I214
+s(VFREIGHTLINER
+p153
+VFL70
+p154
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p155
+tp156
+I702
+s(VINTERNATIONAL
+p157
+V1552-SC
+p158
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p159
+tp160
+I479
+s(VGMC
+p161
+VC7
+p162
+V7000 Medium Duty
+p163
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p164
+tp165
+I573
+s(VINTERNATIONAL
+p166
+V9200
+p167
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p168
+tp169
+I78
+s(VFORD
+p170
+VLNT9000
+p171
+VLN Series
+p172
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p173
+tp174
+I64
+s(VKENWORTH
+p175
+VT800
+p176
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p177
+tp178
+I225
+s(VAUTOCAR
+p179
+VWX
+p180
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p181
+tp182
+I63
+s(VISUZU
+p183
+VNPR/NPR-HD
+p184
+V
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p185
+tp186
+I145
+s(VINTERNATIONAL
+p187
+VLF687
+p188
+VProStar+
+p189
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p190
+tp191
+I62
+s(VINTERNATIONAL
+p192
+V4700
+p193
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p194
+tp195
+I2313
+s(VDODGE
+p196
+VRam
+p197
+V
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p198
+tp199
+I62
+s(VHINO
+p200
+VForward Control Type Truck
+p201
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p202
+tp203
+I210
+s(VFORD
+p204
+VF-450
+p205
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p206
+tp207
+I1678
+s(VHINO
+p208
+VXJC720 / XFC720
+p209
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p210
+tp211
+I58
+s(VGMC
+p212
+VC6
+p213
+V6000 Medium Duty
+p214
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p215
+tp216
+I431
+s(VFORD
+p217
+VCommercial Chassis
+p218
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p219
+tp220
+I427
+s(VFREIGHTLINER
+p221
+VUSF-1E
+p222
+VLong Conventional, Hwy
+p223
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p224
+tp225
+I148
+s(VINTERNATIONAL
+p226
+VMA015
+p227
+VDuraStar 4200
+p228
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p229
+tp230
+I90
+s(VHINO
+p231
+VXJC740 / XFC740
+p232
+VHino
+p233
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p234
+tp235
+I94
+s(VFORD
+p236
+VCommercial Chassis
+p237
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p238
+tp239
+I269
+s(VINTERNATIONAL
+p240
+VRA027
+p241
+VTranStar 8600
+p242
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p243
+tp244
+I82
+s(VFORD
+p245
+VF-700
+p246
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p247
+tp248
+I190
+s(VPETERBILT
+p249
+V335
+p250
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p251
+tp252
+I78
+s(VGMC
+p253
+VC4
+p254
+V4500 Medium Duty
+p255
+VClass 1C: 4,001 - 5,000 lb (1,814 - 2,268 kg), Class 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p256
+tp257
+I62
+s(VPETERBILT
+p258
+V379
+p259
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p260
+tp261
+I1242
+s(VCHEVROLET
+p262
+VC4
+p263
+V4500 Medium Duty
+p264
+VClass 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg), Class 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p265
+tp266
+I162
+s(VKENWORTH
+p267
+VW900
+p268
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p269
+tp270
+I93
+s(VFREIGHTLINER
+p271
+VM2
+p272
+V106 Medium Duty
+p273
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p274
+tp275
+I124
+s(VFORD
+p276
+VE-450
+p277
+VEconoline
+p278
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p279
+tp280
+I472
+s(VHINO
+p281
+VXJC710  / XFC710
+p282
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p283
+tp284
+I108
+s(VCHEVROLET
+p285
+VW4
+p286
+V4500 Medium Duty
+p287
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p288
+tp289
+I267
+s(VKENWORTH
+p290
+VK270/K370
+p291
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p292
+tp293
+I198
+s(VINTERNATIONAL
+p294
+VMA055
+p295
+V1300
+p296
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p297
+tp298
+I52
+s(VINTERNATIONAL
+p299
+V4900
+p300
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p301
+tp302
+I1972
+s(VPETERBILT
+p303
+V337
+p304
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p305
+tp306
+I314
+s(VFORD
+p307
+VF-750
+p308
+VF-Super Duty
+p309
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p310
+tp311
+I54
+s(VCHEVROLET
+p312
+VC6
+p313
+V6000 Medium Duty
+p314
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p315
+tp316
+I409
+s(VINTERNATIONAL
+p317
+V4700
+p318
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p319
+tp320
+I338
+s(VFORD
+p321
+VF-550
+p322
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p323
+tp324
+I7873
+s(VUD
+p325
+VUD1800 CS
+p326
+VMKA350
+p327
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p328
+tp329
+I57
+s(VINTERNATIONAL
+p330
+VMA035
+p331
+V4400, DuraStar 4400
+p332
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg), Class 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p333
+tp334
+I86
+s(VINTERNATIONAL
+p335
+VMA025
+p336
+V4300, DuraStar 4300
+p337
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg), Class 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p338
+tp339
+I445
+s(VFREIGHTLINER
+p340
+VMT 45G Front Gasoline Engine Walk in Van Chassis
+p341
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p342
+tp343
+I248
+s(VCHEVROLET
+p344
+VC5
+p345
+V5000 Medium Duty
+p346
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p347
+tp348
+I444
+s(VFREIGHTLINER
+p349
+VMT 55 Chassis
+p350
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p351
+tp352
+I1485
+s(VCHEVROLET
+p353
+VSilverado
+p354
+V1/2 Ton
+p355
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p356
+tp357
+I58
+s(VGMC
+p358
+VT-Series
+p359
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p360
+tp361
+I125
+s(VFREIGHTLINER
+p362
+VMT 55G Front Gasoline Engine Walk in Van Chassis
+p363
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p364
+tp365
+I870
+s(VHINO
+p366
+VConventional Type Truck
+p367
+VConventional or Conventional Low Profile Truck 
+p368
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p369
+tp370
+I278
+s(VMACK
+p371
+VGU
+p372
+V800
+p373
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p374
+tp375
+I186
+s(VGMC
+p376
+VC4
+p377
+V4500 Medium Duty
+p378
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p379
+tp380
+I556
+s(VUD
+p381
+VUD1800 CS
+p382
+VMKA122
+p383
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p384
+tp385
+I108
+s(VECONOLINE TRAILER, INC
+p386
+VEconoline Trailer, INC
+p387
+V12 ton / 4 axle
+p388
+V
+tp389
+I158
+s(VPETERBILT
+p390
+V330
+p391
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p392
+tp393
+I84
+s(VCHEVROLET
+p394
+VExpress
+p395
+V4500
+p396
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p397
+tp398
+I172
+s(VMITSUBISHI FUSO
+p399
+VFE84D
+p400
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p401
+tp402
+I715
+s(VINTERNATIONAL
+p403
+V4900
+p404
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p405
+tp406
+I108
+s(VMITSUBISHI FUSO
+p407
+VFEC72W
+p408
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p409
+tp410
+I65
+s(VMACK
+p411
+VMR
+p412
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p413
+tp414
+I57
+s(VINTERNATIONAL
+p415
+VMA025
+p416
+VDuraStar 4300
+p417
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p418
+tp419
+I50
+s(VINTERSTATE TRAILERS, INC.
+p420
+VInterstate Trailers, Inc.
+p421
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p422
+tp423
+I294
+s(VCHEVROLET
+p424
+VW5
+p425
+V5000 Medium Duty
+p426
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p427
+tp428
+I153
+s(VGMC
+p429
+VC6
+p430
+V6000 Medium Duty
+p431
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p432
+tp433
+I199
+s(VKENWORTH
+p434
+VT8 Series
+p435
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p436
+tp437
+I1895
+s(VFORD
+p438
+VLN8000
+p439
+VLN Series
+p440
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p441
+tp442
+I76
+s(VINTERNATIONAL
+p443
+VF-5070
+p444
+VCab D
+p445
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p446
+tp447
+I168
+s(VCHEVROLET
+p448
+VC4
+p449
+V4500 Medium Duty
+p450
+VClass 1C: 4,001 - 5,000 lb (1,814 - 2,268 kg), Class 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p451
+tp452
+I109
+s(VFORD
+p453
+VF-650
+p454
+VF- Super Duty
+p455
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p456
+tp457
+I542
+s(VWESTERN STAR
+p458
+V4900
+p459
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p460
+tp461
+I770
+s(VINTERNATIONAL
+p462
+VMA025
+p463
+V4300, DuraStar 4300
+p464
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p465
+tp466
+I802
+s(VGMC
+p467
+VC7
+p468
+V7000 Medium Duty
+p469
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p470
+tp471
+I338
+s(VUD
+p472
+VUD2600
+p473
+VPKA8F
+p474
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p475
+tp476
+I78
+s(VCHEVROLET
+p477
+VC7
+p478
+V7000 Medium Duty
+p479
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p480
+tp481
+I189
+s(VCHEVROLET
+p482
+VC7
+p483
+V7000 Medium Duty
+p484
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p485
+tp486
+I133
+s(VRAM
+p487
+V5500
+p488
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p489
+tp490
+I1189
+s(VFORD
+p491
+VF-700
+p492
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p493
+tp494
+I178
+s(VFORD
+p495
+VF-650
+p496
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p497
+tp498
+I727
+s(VCHEVROLET
+p499
+VExpress
+p500
+V3500 (1 ton)
+p501
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p502
+tp503
+I58
+s(VSTERLING 
+p504
+VActerra
+p505
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p506
+tp507
+I70
+s(VPETERBILT
+p508
+V337
+p509
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p510
+tp511
+I176
+s(VMITSUBISHI FUSO
+p512
+VFH210
+p513
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p514
+tp515
+I77
+s(VFORD
+p516
+VF-750
+p517
+VF- Super Duty
+p518
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p519
+tp520
+I258
+s(VVOLVO TRUCK 
+p521
+VVHD
+p522
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p523
+tp524
+I361
+s(VMACK
+p525
+VCHN
+p526
+V600
+p527
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p528
+tp529
+I50
+s(VINTERNATIONAL
+p530
+VMA025
+p531
+VDuraStar 4300
+p532
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p533
+tp534
+I3394
+s(VFORD
+p535
+VLow Cab Forward
+p536
+V550
+p537
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg), Class 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p538
+tp539
+I135
+s(VHINO
+p540
+VXJC740 / XFC740
+p541
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p542
+tp543
+I524
+s(VMITSUBISHI FUSO
+p544
+VFE649
+p545
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p546
+tp547
+I504
+s(VSTERLING 
+p548
+VM7500 Acterra
+p549
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p550
+tp551
+I55
+s(VCHEVROLET
+p552
+VSilverado
+p553
+V3500 1 ton
+p554
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p555
+tp556
+I50
+s(VGMC
+p557
+VC7
+p558
+V7000 Medium Duty
+p559
+VClass 8: 33,001 lb and above (14,969 kg and above), Class 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p560
+tp561
+I67
+s(VINTERNATIONAL
+p562
+VMA065
+p563
+VDuraStar 4300
+p564
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p565
+tp566
+I103
+s(VFORD
+p567
+VF-350
+p568
+V
+VClass 2H: 9,001 - 10,000 lb (4,082 - 4,536 kg)
+p569
+tp570
+I92
+s(VFREIGHTLINER
+p571
+VM2
+p572
+V112 Medium Duty
+p573
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p574
+tp575
+I65
+s(VVOLVO TRUCK 
+p576
+VVNL
+p577
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p578
+tp579
+I55
+s(VCRANE CARRIER
+p580
+VLow Entry
+p581
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p582
+tp583
+I112
+s(VFORD
+p584
+VF-350
+p585
+V
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p586
+tp587
+I557
+s(VHINO
+p588
+VXJC730/XFC730
+p589
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p590
+tp591
+I53
+s(VCROSS COUNTRY
+p592
+VCross Country
+p593
+VStandard
+p594
+V
+tp595
+I52
+s(VHINO
+p596
+VConventional Type Truck
+p597
+VConventional or Conventional Low Profile Truck 
+p598
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p599
+tp600
+I120
+s(VMITSUBISHI FUSO
+p601
+VFG84D
+p602
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p603
+tp604
+I109
+s(VINTERNATIONAL
+p605
+VRF027
+p606
+VTranStar 8600
+p607
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p608
+tp609
+I137
+s(VFORD
+p610
+VF-450
+p611
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p612
+tp613
+I1909
+s(VCHEVROLET
+p614
+VC4
+p615
+V4500 Medium Duty
+p616
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p617
+tp618
+I941
+s(VFORD
+p619
+VF-550
+p620
+VF-Series
+p621
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p622
+tp623
+I2910
+s(VMITSUBISHI FUSO
+p624
+VFE84DW
+p625
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p626
+tp627
+I101
+s(VGMC
+p628
+VForward Control
+p629
+V4500 Series Medium Duty
+p630
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p631
+tp632
+I54
+s(VFORD
+p633
+VLNT8000
+p634
+VLN Series
+p635
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p636
+tp637
+I68
+s(VINTERNATIONAL
+p638
+VSF625
+p639
+V7400, WorkStar 7400
+p640
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p641
+tp642
+I59
+s(VISUZU
+p643
+VNPR
+p644
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p645
+tp646
+I1014
+s(VSTERLING 
+p647
+VActerra
+p648
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p649
+tp650
+I120
+s(VPETERBILT
+p651
+V335
+p652
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p653
+tp654
+I331
+s(VFREIGHTLINER
+p655
+VMT 45G Front Gasoline Engine Walk in Van Chassis
+p656
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p657
+tp658
+I404
+s(VGMC
+p659
+VC5
+p660
+V5000 Medium Duty
+p661
+VClass 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg), Class 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p662
+tp663
+I70
+s(VISUZU
+p664
+VNPR/NPR-HD
+p665
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p666
+tp667
+I2535
+s(VFORD
+p668
+VE-550
+p669
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p670
+tp671
+I56
+s(VCHEVROLET
+p672
+VGMT-400
+p673
+VConventional Cab
+p674
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p675
+tp676
+I132
+s(VINTERNATIONAL
+p677
+V9400
+p678
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p679
+tp680
+I124
+s(VMACK
+p681
+VCHU
+p682
+V600
+p683
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p684
+tp685
+I134
+s(VFREIGHTLINER
+p686
+VCascadia
+p687
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p688
+tp689
+I233
+s(VKENWORTH
+p690
+VT4 Series
+p691
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p692
+tp693
+I176
+s(VMACK
+p694
+VCV
+p695
+V700
+p696
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p697
+tp698
+I1232
+s(VMACK
+p699
+VCL
+p700
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p701
+tp702
+I173
+s(VHINO
+p703
+VConventional Type Truck
+p704
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p705
+tp706
+I77
+s(VINTERNATIONAL
+p707
+V4600
+p708
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p709
+tp710
+I166
+s(VSTERLING 
+p711
+VActerra
+p712
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p713
+tp714
+I229
+s(VINTERNATIONAL
+p715
+VDF567
+p716
+VPayStar 5600i
+p717
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p718
+tp719
+I167
+s(VRAM
+p720
+V5500
+p721
+VDP (Dual Rear Wheels)
+p722
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p723
+tp724
+I187
+s(VFORD
+p725
+VF-800
+p726
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p727
+tp728
+I590
+s(VINTERNATIONAL
+p729
+VL9427
+p730
+V9400i
+p731
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p732
+tp733
+I56
+s(VCHEVROLET
+p734
+V3500 / 4500
+p735
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p736
+tp737
+I67
+s(VHINO
+p738
+VXJC720 / XFC720
+p739
+VHino
+p740
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p741
+tp742
+I72
+s(VINTERNATIONAL
+p743
+V4700
+p744
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p745
+tp746
+I1203
+s(VISUZU
+p747
+VNQR/NRR
+p748
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p749
+tp750
+I4004
+s(VINTERNATIONAL
+p751
+VMH025
+p752
+V4300, DuraStar 4300
+p753
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p754
+tp755
+I55
+s(VKENWORTH
+p756
+VT3 Series
+p757
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p758
+tp759
+I309
+s(VKENWORTH
+p760
+VT300
+p761
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p762
+tp763
+I204
+s(VINTERNATIONAL
+p764
+V8100
+p765
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p766
+tp767
+I225
+s(VPETERBILT
+p768
+V340
+p769
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p770
+tp771
+I61
+s(VFREIGHTLINER
+p772
+VColumbia
+p773
+V120
+p774
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p775
+tp776
+I305
+s(VFREIGHTLINER
+p777
+VMT 45 Chassis
+p778
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p779
+tp780
+I1210
+s(VFREIGHTLINER
+p781
+VFL70
+p782
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p783
+tp784
+I88
+s(VVOLVO TRUCK 
+p785
+VACL
+p786
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p787
+tp788
+I83
+s(VRAM
+p789
+V4500
+p790
+VDP (Dual Rear Wheels)
+p791
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p792
+tp793
+I143
+s(VINTERNATIONAL, INTERNATIONAL
+p794
+V8100, 8100
+p795
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p796
+tp797
+I66
+s(VMACK
+p798
+VLEU
+p799
+V600
+p800
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p801
+tp802
+I166
+s(VMITSUBISHI FUSO
+p803
+VFK62F
+p804
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p805
+tp806
+I183
+s(VMACK
+p807
+VGU
+p808
+VGRANITE
+p809
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p810
+tp811
+I270
+s(VFORD
+p812
+VLT9000
+p813
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p814
+tp815
+I147
+s(VFORD
+p816
+VF-450
+p817
+VF-Series
+p818
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p819
+tp820
+I1084
+s(VUD
+p821
+VUD2600
+p822
+VPKA370
+p823
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p824
+tp825
+I153
+s(VFREIGHTLINER
+p826
+VMT 45 HEV Chassis
+p827
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p828
+tp829
+I82
+s(VINTERNATIONAL
+p830
+VMA035
+p831
+V4400, DuraStar 4400
+p832
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p833
+tp834
+I341
+s(VMACK
+p835
+VMRU
+p836
+V600
+p837
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p838
+tp839
+I305
+s(VUD
+p840
+VUD2600
+p841
+VPKA213
+p842
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p843
+tp844
+I86
+s(VFREIGHTLINER
+p845
+VFL80
+p846
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p847
+tp848
+I275
+s(VFORD
+p849
+VF-450
+p850
+VF-Series
+p851
+V
+tp852
+I85
+s(VAUTOCAR
+p853
+VDK
+p854
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p855
+tp856
+I66
+s(VINTERNATIONAL
+p857
+VL9327
+p858
+V9900i
+p859
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p860
+tp861
+I76
+s(VINTERNATIONAL
+p862
+VMA015
+p863
+VDuraStar 4200
+p864
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p865
+tp866
+I51
+s(VPETERBILT
+p867
+V388
+p868
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p869
+tp870
+I130
+s(VHINO
+p871
+VXJC720 / XFC720
+p872
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p873
+tp874
+I389
+s(VGMC
+p875
+VW4
+p876
+V4500 Medium Duty
+p877
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p878
+tp879
+I77
+s(VHINO
+p880
+VIncomplete Vehicle
+p881
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p882
+tp883
+I210
+s(VSTERLING 
+p884
+VA9500 series 
+p885
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p886
+tp887
+I114
+s(VUD
+p888
+VUD2600
+p889
+VPKA371
+p890
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p891
+tp892
+I98
+s(VFREIGHTLINER
+p893
+VM2
+p894
+V106 Medium Duty
+p895
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p896
+tp897
+I2826
+s(VHINO
+p898
+VForward Control Type Truck
+p899
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p900
+tp901
+I52
+s(VMITSUBISHI FUSO
+p902
+VFEC72S
+p903
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p904
+tp905
+I458
+s(VINTERNATIONAL
+p906
+VMA025
+p907
+V4300, DuraStar 4300
+p908
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p909
+tp910
+I707
+s(VMACK
+p911
+VCXU
+p912
+V600
+p913
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p914
+tp915
+I90
+s(VINTERNATIONAL
+p916
+V2574
+p917
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p918
+tp919
+I97
+s(VKENWORTH
+p920
+VW9 Series
+p921
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p922
+tp923
+I929
+s(VSTERLING 
+p924
+VL7500 series
+p925
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p926
+tp927
+I61
+s(VFREIGHTLINER
+p928
+VMT 45 Chassis
+p929
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p930
+tp931
+I1466
+s(VWHITEGMC
+p932
+VACL
+p933
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p934
+tp935
+I143
+s(VFORD
+p936
+VF-800
+p937
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p938
+tp939
+I185
+s(VINTERNATIONAL
+p940
+VMA025
+p941
+VDuraStar 4300
+p942
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p943
+tp944
+I1524
+s(VINTERNATIONAL
+p945
+VF-9370
+p946
+VCab D 118 BBC
+p947
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p948
+tp949
+I84
+s(VFREIGHTLINER
+p950
+VMed. Conv.
+p951
+VAluminum Cab, Hwy
+p952
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p953
+tp954
+I75
+s(VHINO
+p955
+VConventional Type Truck
+p956
+VClass 7 Truck
+p957
+V
+tp958
+I70
+s(VINTERNATIONAL
+p959
+VSF637
+p960
+VWorkStar 7500
+p961
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p962
+tp963
+I78
+s(VFORD
+p964
+VLN8000
+p965
+VLN Series
+p966
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p967
+tp968
+I286
+s(VPETERBILT
+p969
+V378
+p970
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p971
+tp972
+I319
+s(VMACK
+p973
+VCH
+p974
+V600
+p975
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p976
+tp977
+I735
+s(VISUZU
+p978
+VFRR
+p979
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p980
+tp981
+I176
+s(VTEREX ADVANCE MIXER
+p982
+VTerex Advance Mixer
+p983
+VNew Truck
+p984
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p985
+tp986
+I140
+s(VPETERBILT
+p987
+V357
+p988
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p989
+tp990
+I733
+s(VFORD
+p991
+VF-450
+p992
+VF-Series
+p993
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p994
+tp995
+I166
+s(VGMC
+p996
+VC4
+p997
+V4500 Medium Duty
+p998
+VClass 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg), Class 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p999
+tp1000
+I68
+s(VKENWORTH
+p1001
+VT300
+p1002
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p1003
+tp1004
+I572
+s(VMITSUBISHI FUSO
+p1005
+VFE85D
+p1006
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p1007
+tp1008
+I840
+s(VFORD
+p1009
+VF-750
+p1010
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p1011
+tp1012
+I427
+s(VMACK
+p1013
+VCTP
+p1014
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1015
+tp1016
+I157
+s(VFORD
+p1017
+VLN9000
+p1018
+VLN Series
+p1019
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1020
+tp1021
+I90
+s(VMACK
+p1022
+VRD
+p1023
+V600
+p1024
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1025
+tp1026
+I250
+s(VDODGE
+p1027
+VRam Chassis Cab
+p1028
+V
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p1029
+tp1030
+I106
+s(VWESTERN STAR
+p1031
+V4800
+p1032
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1033
+tp1034
+I60
+s(VPETERBILT
+p1035
+V348
+p1036
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1037
+tp1038
+I134
+s(VFREIGHTLINER
+p1039
+VLong Conv.
+p1040
+VUSF-1E, Hwy
+p1041
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1042
+tp1043
+I60
+s(VFREIGHTLINER
+p1044
+VM2
+p1045
+V106 Medium Duty
+p1046
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1047
+tp1048
+I1827
+s(VSTERLING 
+p1049
+VL9500 series
+p1050
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1051
+tp1052
+I583
+s(VSTERLING 
+p1053
+VA9500 series 
+p1054
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p1055
+tp1056
+I50
+s(VGMC
+p1057
+VC8
+p1058
+V8000 Medium Duty
+p1059
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1060
+tp1061
+I113
+s(VKENWORTH
+p1062
+VT300
+p1063
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1064
+tp1065
+I82
+s(VGMC
+p1066
+VW4
+p1067
+V4500 Medium Duty
+p1068
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p1069
+tp1070
+I993
+s(VMACK
+p1071
+VGU
+p1072
+V700
+p1073
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1074
+tp1075
+I728
+s(VMITSUBISHI FUSO
+p1076
+VFE639
+p1077
+V
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p1078
+tp1079
+I105
+s(VGMC
+p1080
+VT-Series
+p1081
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1082
+tp1083
+I223
+s(VINTERNATIONAL
+p1084
+VF-2574
+p1085
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1086
+tp1087
+I113
+s(VGMC
+p1088
+VSierra
+p1089
+VConventional Cab
+p1090
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p1091
+tp1092
+I196
+s(VHINO
+p1093
+VConventional Type Truck
+p1094
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1095
+tp1096
+I2347
+s(VCHEVROLET
+p1097
+VExpress
+p1098
+V4500 Cutaway 159" Wheelbase
+p1099
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p1100
+tp1101
+I81
+s(VCHEVROLET
+p1102
+VGMT-400
+p1103
+VConventional Cab
+p1104
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p1105
+tp1106
+I361
+s(VFORD
+p1107
+VE-450
+p1108
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p1109
+tp1110
+I741
+s(VFORD
+p1111
+VF-750
+p1112
+VF- Super Duty
+p1113
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1114
+tp1115
+I114
+s(VPETERBILT
+p1116
+V330
+p1117
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p1118
+tp1119
+I346
+s(VWESTERN STAR
+p1120
+V4700
+p1121
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1122
+tp1123
+I124
+s(VINTERNATIONAL
+p1124
+VMA015
+p1125
+VDuraStar 4200
+p1126
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1127
+tp1128
+I273
+s(VMITSUBISHI FUSO
+p1129
+VFG649
+p1130
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p1131
+tp1132
+I103
+s(VINTERSTATE TRAILERS, INC.
+p1133
+VInterstate Trailers, Inc.
+p1134
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1135
+tp1136
+I328
+s(VFORD
+p1137
+VF-650
+p1138
+VSuper Duty - Dual Rear Wheel
+p1139
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1140
+tp1141
+I269
+s(VMITSUBISHI FUSO
+p1142
+VFGB72S
+p1143
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p1144
+tp1145
+I63
+s(VINTERNATIONAL
+p1146
+VMA025
+p1147
+V4300, DuraStar 4300
+p1148
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg), Class 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p1149
+tp1150
+I219
+s(VRAM
+p1151
+V3500
+p1152
+V
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p1153
+tp1154
+I50
+s(VINTERNATIONAL
+p1155
+V4900
+p1156
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1157
+tp1158
+I221
+s(VINTERNATIONAL
+p1159
+VMA065
+p1160
+VDuraStar 4300
+p1161
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1162
+tp1163
+I371
+s(VWORKHORSE
+p1164
+VW42
+p1165
+VForward Engine
+p1166
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p1167
+tp1168
+I111
+s(VNAVISTAR
+p1169
+V1954
+p1170
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p1171
+tp1172
+I63
+s(VISUZU
+p1173
+VF7
+p1174
+V7000 Series Medium Duty
+p1175
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1176
+tp1177
+I86
+s(VFORD
+p1178
+VLTS9000
+p1179
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1180
+tp1181
+I92
+s(VCHEVROLET
+p1182
+VSilverado
+p1183
+V3500
+p1184
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p1185
+tp1186
+I170
+s(VKENWORTH
+p1187
+VT880
+p1188
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1189
+tp1190
+I411
+s(VVOLVO TRUCK 
+p1191
+VVNL
+p1192
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1193
+tp1194
+I246
+s(VISUZU
+p1195
+VNPR/ NPR-HD/ NPR-XD
+p1196
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p1197
+tp1198
+I799
+s(VGMC
+p1199
+VSavana
+p1200
+V
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p1201
+tp1202
+I151
+s(VFREIGHTLINER
+p1203
+VFL60
+p1204
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1205
+tp1206
+I245
+s(VINTERNATIONAL
+p1207
+VF-4900
+p1208
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1209
+tp1210
+I307
+s(VMACK
+p1211
+VDM
+p1212
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1213
+tp1214
+I296
+s(VPETERBILT
+p1215
+V389
+p1216
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1217
+tp1218
+I254
+s(VCHEVROLET
+p1219
+VC6
+p1220
+V6000 Medium Duty
+p1221
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p1222
+tp1223
+I85
+s(VSTERLING 
+p1224
+VL9513
+p1225
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1226
+tp1227
+I52
+s(VMACK
+p1228
+VRD
+p1229
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1230
+tp1231
+I1499
+s(VGMC
+p1232
+VW5
+p1233
+V5000 Medium Duty
+p1234
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p1235
+tp1236
+I605
+s(VKENWORTH
+p1237
+VT3 Series
+p1238
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p1239
+tp1240
+I607
+s(VINTERNATIONAL
+p1241
+V1652-SC
+p1242
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg), Class 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1243
+tp1244
+I115
+s(VDODGE
+p1245
+VRam Chassis Cab
+p1246
+VDP
+p1247
+V
+tp1248
+I231
+s(VINTERNATIONAL
+p1249
+VMH025
+p1250
+VDuraStar 4300
+p1251
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1252
+tp1253
+I111
+s(VISUZU
+p1254
+VNQR
+p1255
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p1256
+tp1257
+I411
+s(VINTERNATIONAL
+p1258
+VMA015
+p1259
+VDuraStar 4200
+p1260
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg), Class 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1261
+tp1262
+I55
+s(VINTERNATIONAL
+p1263
+V1652-SC
+p1264
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1265
+tp1266
+I195
+s(VGMC
+p1267
+VC5
+p1268
+V5000 Medium Duty
+p1269
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p1270
+tp1271
+I732
+s(VMITSUBISHI FUSO
+p1272
+VFM61F
+p1273
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1274
+tp1275
+I215
+s(VFORD
+p1276
+VLT9513
+p1277
+VLouisville 113
+p1278
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1279
+tp1280
+I60
+s(VFORD
+p1281
+VE-350
+p1282
+V
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p1283
+tp1284
+I121
+s(VUD
+p1285
+VUD2300
+p1286
+VLKC370
+p1287
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1288
+tp1289
+I52
+s(VFREIGHTLINER
+p1290
+V114SD
+p1291
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1292
+tp1293
+I207
+s(VVOLVO TRUCK 
+p1294
+VVNM
+p1295
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1296
+tp1297
+I85
+s(VMACK
+p1298
+VCXN
+p1299
+V600
+p1300
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1301
+tp1302
+I102
+s(VPETERBILT
+p1303
+V320
+p1304
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1305
+tp1306
+I254
+s(VMITSUBISHI FUSO
+p1307
+VFH100
+p1308
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p1309
+tp1310
+I190
+s(VMACK
+p1311
+VMR
+p1312
+V600
+p1313
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1314
+tp1315
+I466
+s(VPETERBILT
+p1316
+V367
+p1317
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1318
+tp1319
+I194
+s(VFORD
+p1320
+VF-250
+p1321
+VSuper Duty - Single Rear Wheel 
+p1322
+VClass 2H: 9,001 - 10,000 lb (4,082 - 4,536 kg)
+p1323
+tp1324
+I90
+s(VINTERNATIONAL
+p1325
+VF-8100
+p1326
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1327
+tp1328
+I153
+s(VFORD
+p1329
+VF-350
+p1330
+VSuper Duty - Dual Rear Wheel 
+p1331
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p1332
+tp1333
+I846
+s(VWORKHORSE
+p1334
+VP42
+p1335
+VForward Control
+p1336
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p1337
+tp1338
+I91
+s(VPETERBILT
+p1339
+V335
+p1340
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1341
+tp1342
+I99
+s(VFORD
+p1343
+VLTL9000
+p1344
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1345
+tp1346
+I84
+s(VSTERLING 
+p1347
+VL8500 series
+p1348
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1349
+tp1350
+I53
+s(VFORD
+p1351
+VF-350
+p1352
+VSuper Duty - Single Rear Wheel 
+p1353
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p1354
+tp1355
+I108
+s(VFREIGHTLINER
+p1356
+VM2
+p1357
+V112 Medium Duty
+p1358
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1359
+tp1360
+I241
+s(VCHEVROLET
+p1361
+VGMT-400
+p1362
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p1363
+tp1364
+I67
+s(VUD
+p1365
+VUD1800
+p1366
+VMKA213
+p1367
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p1368
+tp1369
+I290
+s(VFREIGHTLINER
+p1370
+VColumbia
+p1371
+V120
+p1372
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p1373
+tp1374
+I54
+s(VCHEVROLET
+p1375
+VGMT-400
+p1376
+V3500
+p1377
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p1378
+tp1379
+I150
+s(VMACK
+p1380
+VCL
+p1381
+V700
+p1382
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1383
+tp1384
+I231
+s(VRAM
+p1385
+V4500
+p1386
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p1387
+tp1388
+I839
+s(VINTERNATIONAL
+p1389
+VMA025
+p1390
+V4300, DuraStar 4300
+p1391
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p1392
+tp1393
+I68
+s(VGMC
+p1394
+VC8
+p1395
+V8000 Medium Duty
+p1396
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p1397
+tp1398
+I129
+s(VCHEVROLET
+p1399
+VGMT-400
+p1400
+V3500 (1 ton)
+p1401
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p1402
+tp1403
+I164
+s(VFREIGHTLINER
+p1404
+VFL112
+p1405
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1406
+tp1407
+I201
+s(VINTERNATIONAL
+p1408
+VKL055
+p1409
+VCF600
+p1410
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p1411
+tp1412
+I78
+s(VDODGE
+p1413
+VRam Chassis Cab
+p1414
+VDC
+p1415
+V
+tp1416
+I210
+s(VMITSUBISHI FUSO
+p1417
+VFEC92S
+p1418
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p1419
+tp1420
+I383
+s(VINTERNATIONAL
+p1421
+V4700
+p1422
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1423
+tp1424
+I78
+s(VWORKHORSE
+p1425
+VW62
+p1426
+VForward Engine
+p1427
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1428
+tp1429
+I168
+s(VINTERNATIONAL
+p1430
+VMA035
+p1431
+VDuraStar 4400
+p1432
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1433
+tp1434
+I139
+s(VPETERBILT
+p1435
+V365
+p1436
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1437
+tp1438
+I133
+s(VISUZU
+p1439
+VNPR
+p1440
+V4000 Series Medium Duty
+p1441
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p1442
+tp1443
+I80
+s(VHINO
+p1444
+VForward Control Type Truck
+p1445
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p1446
+tp1447
+I72
+s(VINTERNATIONAL
+p1448
+VSF647
+p1449
+VWorkStar 7600
+p1450
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1451
+tp1452
+I102
+s(VUD
+p1453
+VUD1800
+p1454
+VMKA
+p1455
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p1456
+tp1457
+I87
+s(VPETERBILT
+p1458
+V330
+p1459
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1460
+tp1461
+I89
+s(VPETERBILT
+p1462
+V377
+p1463
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1464
+tp1465
+I59
+s(VPETERBILT
+p1466
+V382
+p1467
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1468
+tp1469
+I78
+s(VINTERNATIONAL
+p1470
+V1652-UPS
+p1471
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1472
+tp1473
+I321
+s(VPETERBILT
+p1474
+V567
+p1475
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1476
+tp1477
+I150
+s(VUD
+p1478
+VUD2300
+p1479
+VLKC213
+p1480
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1481
+tp1482
+I51
+s(VMACK
+p1483
+VDM
+p1484
+V600
+p1485
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1486
+tp1487
+I79
+s(VFREIGHTLINER
+p1488
+VLong Conv.
+p1489
+VConstruction
+p1490
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1491
+tp1492
+I197
+s(VFORD
+p1493
+VF-600
+p1494
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1495
+tp1496
+I84
+s(VFORD
+p1497
+VLT8000
+p1498
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1499
+tp1500
+I50
+s(VFREIGHTLINER
+p1501
+VCoronado
+p1502
+VSD 122
+p1503
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1504
+tp1505
+I57
+s(VINTERNATIONAL
+p1506
+VSF625
+p1507
+VWorkStar 7400
+p1508
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1509
+tp1510
+I117
+s(VFORD
+p1511
+VLA9000
+p1512
+VAeromax 106
+p1513
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1514
+tp1515
+I89
+s(VOSHKOSH
+p1516
+VS Series
+p1517
+VOne Man Forward Mounted
+p1518
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1519
+tp1520
+I447
+s(VFREIGHTLINER
+p1521
+VFLD120
+p1522
+VSD
+p1523
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1524
+tp1525
+I192
+s(VWHITEGMC
+p1526
+VWB
+p1527
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1528
+tp1529
+I156
+s(VSTERLING 
+p1530
+VL7500 series
+p1531
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1532
+tp1533
+I60
+s(VCHEVROLET
+p1534
+VC7
+p1535
+V7000 Medium Duty
+p1536
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p1537
+tp1538
+I643
+s(VHINO
+p1539
+VConventional /Conventional Low Profile Truck
+p1540
+VConventional or Conventional Low Profile Truck 
+p1541
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1542
+tp1543
+I52
+s(VINTERNATIONAL
+p1544
+VMA035
+p1545
+VDuraStar 4400
+p1546
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p1547
+tp1548
+I934
+s(VFORD
+p1549
+VE-450
+p1550
+VEconoline
+p1551
+V
+tp1552
+I77
+s(VINTERSTATE TRAILERS, INC.
+p1553
+VInterstate Trailers, Inc.
+p1554
+V
+VClass 3: 10,001 - 14,000 lb (4,536 - 6,350 kg)
+p1555
+tp1556
+I66
+s(VINTERNATIONAL
+p1557
+VTA005
+p1558
+VTerraStar
+p1559
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p1560
+tp1561
+I412
+s(VFORD
+p1562
+VF-750
+p1563
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1564
+tp1565
+I195
+s(VKENWORTH
+p1566
+VT6 Series
+p1567
+V
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1568
+tp1569
+I62
+s(VINTERNATIONAL
+p1570
+V4700 Low Profile
+p1571
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1572
+tp1573
+I161
+s(VUD
+p1574
+VUD1800 HD
+p1575
+VMKA370
+p1576
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p1577
+tp1578
+I112
+s(VMITSUBISHI FUSO
+p1579
+VFM617
+p1580
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1581
+tp1582
+I131
+s(VMITSUBISHI FUSO
+p1583
+VFE640
+p1584
+V
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p1585
+tp1586
+I131
+s(VHINO
+p1587
+VConventional Type Truck
+p1588
+VClass 6 Truck
+p1589
+V
+tp1590
+I349
+s(VFORD
+p1591
+VF-250
+p1592
+V
+VClass 2G: 8,001 - 9,000 lb (3,629 - 4,082 kg)
+p1593
+tp1594
+I53
+s(VMACK
+p1595
+VCX
+p1596
+V600
+p1597
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1598
+tp1599
+I74
+s(VINTERNATIONAL
+p1600
+VSA625
+p1601
+VWorkStar 7400
+p1602
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p1603
+tp1604
+I83
+s(VHINO
+p1605
+VConventional Type Truck
+p1606
+V
+VClass 7: 26,001 - 33,000 lb (11,794 - 14,969 kg)
+p1607
+tp1608
+I826
+s(VINTERNATIONAL
+p1609
+VMF035
+p1610
+VDuraStar 4400
+p1611
+VClass 8: 33,001 lb and above (14,969 kg and above)
+p1612
+tp1613
+I178
+s(VUD
+p1614
+VUD1400
+p1615
+VU41
+p1616
+VClass 4: 14,001 - 16,000 lb (6,350 - 7,258 kg)
+p1617
+tp1618
+I304
+s(VMITSUBISHI FUSO
+p1619
+VFH211
+p1620
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p1621
+tp1622
+I1245
+s(VDODGE
+p1623
+VRam Chassis Cab
+p1624
+VDP
+p1625
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p1626
+tp1627
+I403
+s(VCHEVROLET
+p1628
+VT-Series
+p1629
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1630
+tp1631
+I57
+s(VWORKHORSE
+p1632
+VW62
+p1633
+VForward Engine
+p1634
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p1635
+tp1636
+I439
+s(VFREIGHTLINER
+p1637
+VFL50
+p1638
+V
+VClass 5: 16,001 - 19,500 lb (7,258 - 8,845 kg)
+p1639
+tp1640
+I78
+s(VHINO
+p1641
+VForward Control Type Truck
+p1642
+V
+VClass 6: 19,501 - 26,000 lb (8,845 - 11,794 kg)
+p1643
+tp1644
+I99
+s.
