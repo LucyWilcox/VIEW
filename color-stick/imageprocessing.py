@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-
+from collections import OrderedDict
 """
 Colors are in boundraies should be in format: G, B, R
 
@@ -25,22 +25,22 @@ class ImageProcessing:
 			split = self.image[: , left:right]
 			left += self.split
 			right += self.split
-			# cv2.imshow("image", split)
-			# cv2.waitKey(0)
+			cv2.imshow("image", split)
+			cv2.waitKey(0)
 			yield split
 
 	def check_color(self, color_bounds, image):
 		lower = np.array(color_bounds[0], dtype='uint8')
 		upper = np.array(color_bounds[1], dtype='uint8')
 
-		mask = cv2.inRange(image, lower, upper)
+		mask = cv2.inRange(image, lower, upper) 
 		has_color = cv2.countNonZero(mask)
-		if has_color > 50:
+		if has_color > 200: # 50 is subject to change
+			output = cv2.bitwise_and(image, image, mask=mask)
+			cv2.imshow("image", output)
+			cv2.waitKey(0) 
 			return True
 
-			#output = cv2.bitwise_and(image, image, mask=mask)
-			# cv2.imshow("image", output)
-			# cv2.waitKey(0)
 		return False	
 
 	def check_colors(self):
@@ -58,19 +58,29 @@ class ImageProcessing:
 		return ratio * self.check_colors()
 
 
-gbrs = {'TEAL':([75, 85, 25], [120, 150, 60])}
-vals = {'TEAL': 1}
+# gbrs = {'TEAL':([75, 85, 25], [120, 150, 60])}
+# vals = {'TEAL': 1}
 
-# gbrs = {'RED': ([30, 20, 150], [40, 30, 190]), 
+# inside_gbrs = {'RED': ([30, 20, 150], [40, 30, 190]), 
 # 	'BLUE': ([130, 180, 55], [150, 210, 75]),
 # 	'PINK': ([110, 165, 230], [135, 180, 250]),
 # 	'YELLOW': ([220, 115, 215], [235, 130, 235]),
 # 	'ORANGE': ([180, 110, 240], [200, 135, 265]),
 # 	'GREEN': ([210, 135, 170], [235, 155, 195])
 # 	}
-# vals = {'RED': 6, 'BLUE': 5, 'PINK': 4, 'YELLOW': 3, 'ORANGE': 2, 'GREEN': 1}
 
-image1 = cv2.imread('image1.jpg')
+cloudy_gbrs = {'RED': ([25, 20, 120], [50, 50, 195]), #these aren't perfect yet
+	'BLUE': ([95, 145, 0], [175, 220, 30]),
+	'PINK': ([85, 95, 230], [195, 240, 255]),
+	'YELLOW': ([215, 105, 185], [250, 225, 250]),
+	'ORANGE': ([155, 80, 240], [195, 125, 255]),
+	'GREEN': ([195, 85, 80], [240, 200, 190])
+	}
 
-i = ImageProcessing(image1, 500, gbrs, vals)
+
+vals = OrderedDict([('RED', 6), ('BLUE', 5), ('PINK', 4), ('YELLOW', 3), ('ORANGE', 2), ('GREEN', 1)]) 
+
+image1 = cv2.imread('image2.jpg')
+
+i = ImageProcessing(image1, 500, cloudy_gbrs, vals)
 print i.get_score()
