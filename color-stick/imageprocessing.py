@@ -25,7 +25,7 @@ class ImageProcessing:
 			split = self.image[: , left:right]
 			left += self.split
 			right += self.split
-			cv2.imshow("image", split)
+			# cv2.imshow("image", split)
 			cv2.waitKey(0)
 			yield split
 
@@ -35,12 +35,11 @@ class ImageProcessing:
 
 		mask = cv2.inRange(image, lower, upper) 
 		has_color = cv2.countNonZero(mask)
-		if has_color > 200: # 50 is subject to change
+		if has_color > 50: # 50 is subject to change
 			output = cv2.bitwise_and(image, image, mask=mask)
-			cv2.imshow("image", output)
-			cv2.waitKey(0) 
+			cv2.imshow("image", output) 
+			cv2.waitKey(0)
 			return True
-
 		return False	
 
 	def check_colors(self):
@@ -60,7 +59,7 @@ class ImageProcessing:
 
 # gbrs = {'TEAL':([75, 85, 25], [120, 150, 60])}
 # vals = {'TEAL': 1}
-
+ 
 # inside_gbrs = {'RED': ([30, 20, 150], [40, 30, 190]), 
 # 	'BLUE': ([130, 180, 55], [150, 210, 75]),
 # 	'PINK': ([110, 165, 230], [135, 180, 250]),
