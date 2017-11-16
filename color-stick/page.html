@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div id="canvas">Click to draw<br/></div>
+<button onclick="previewFile()">Clear</button>
+ <input type="file" onchange="previewFile()"><br>
+ <img src="" height="300" alt="Image preview...">
+</body>
+</html>
+
+
+
+<script type="text/javascript">
+
+
+function c(img) {
+    // Creates a new canvas element and appends it as a child
+    // to the parent element, and returns the reference to
+    // the newly created canvas element
+
+    function createCanvas(parent, width, height, img) {
+        var canvas = {};
+        canvas.node = document.createElement("canvas");
+        canvas.context = canvas.node.getContext("2d");
+        canvas.node.width = width || 100;
+        canvas.node.height = height || 100;
+
+        parent.appendChild(canvas.node);
+
+        return canvas;
+        // canvas.node.width = width || 100;
+        // canvas.node.height = height || 100;
+        // parent.appendChild(canvas.node);
+        // return canvas;
+    }
+
+    function init(container, width, height, fillColor) {
+        var canvas = createCanvas(container, width, height);
+        var ctx = canvas.context;
+
+        // define a custom fillCircle method
+        ctx.fillCircle = function(x, y, radius, fillColor) {
+            this.fillStyle = fillColor;
+            this.beginPath();
+            this.moveTo(x, y);
+            this.arc(x, y, radius, 0, Math.PI * 2, false);
+            this.fill();
+        };
+
+        // ctx.clearTo = function(fillColor) {
+        //     ctx.fillStyle = fillColor;
+        //     ctx.fillRect(0, 0, width, height);
+        // };
+        // ctx.clearTo(fillColor || "#ddd");
+
+        ctx.addBack = function (img){
+        	var image = new Image();
+        	image.onload = function () {
+        		console.log('here');
+        		ctx.drawImage(image, 0, 0, 800, 400);
+        	}
+        	image.src = img
+        }
+        ctx.addBack(img);
+
+        // bind mouse events
+        canvas.node.onmousemove = function(e) {
+            if (!canvas.isDrawing) {
+               return;
+            }
+            var x = e.pageX - this.offsetLeft;
+            var y = e.pageY - this.offsetTop;
+            var radius = 5; // or whatever
+            var fillColor = '#ff0000';
+            console.log(x);
+            console.log(y);
+            ctx.fillCircle(x, y, radius, fillColor);
+        };
+        canvas.node.onmousedown = function(e) {
+            canvas.isDrawing = true;
+            console.log(canvas);
+        };
+        canvas.node.onmouseup = function(e) {
+            canvas.isDrawing = false;
+        };
+    }
+
+    var container = document.getElementById('canvas');
+    init(container, 800, 400, '#ddd', img);
+
+};
+
+function previewFile() {
+    // Where you will display your image
+    var preview = document.querySelector('img');
+    // The button where the user chooses the local image to display
+    var file = document.querySelector('input[type=file]').files[0];
+    // FileReader instance
+    var reader  = new FileReader();
+
+    // When the image is loaded we will set it as source of
+    // our img tag
+    reader.onloadend = function () {
+      preview.src = reader.result;
+      console.log(reader);
+	  c(preview.src);
+    }
+    
+    if (file) {
+      // Load image as a base64 encoded URI
+      reader.readAsDataURL(file);
+
+    } else {
+      preview.src = "";
+    }
+}
+
+
+</script>
