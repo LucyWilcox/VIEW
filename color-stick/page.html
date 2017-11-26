@@ -5,7 +5,7 @@
 </head>
 <body>
 <div id="canvas">Click to draw<br/></div>
-<button onclick="previewFile()">Clear</button>
+<button onclick="clearPanel()">Clear</button>
  <input type="file" onchange="previewFile()"><br>
  <img src="" height="300" alt="Image preview...">
 </body>
@@ -14,14 +14,16 @@
 
 
 <script type="text/javascript">
-
+function clearPanel() {
+    ctx.addBack(my_image);
+}
 
 function c(img) {
     // Creates a new canvas element and appends it as a child
     // to the parent element, and returns the reference to
     // the newly created canvas element
 
-    function createCanvas(parent, width, height, img) {
+    function createCanvas(parent, width, height) {
         var canvas = {};
         canvas.node = document.createElement("canvas");
         canvas.context = canvas.node.getContext("2d");
@@ -39,7 +41,7 @@ function c(img) {
 
     function init(container, width, height, fillColor) {
         var canvas = createCanvas(container, width, height);
-        var ctx = canvas.context;
+        ctx = canvas.context;
 
         // define a custom fillCircle method
         ctx.fillCircle = function(x, y, radius, fillColor) {
@@ -105,6 +107,7 @@ function previewFile() {
     // our img tag
     reader.onloadend = function () {
       preview.src = reader.result;
+      my_image = preview.src;
       console.log(reader);
 	  c(preview.src);
     }
