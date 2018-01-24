@@ -4,10 +4,13 @@
 	<title></title>
 </head>
 <body>
+    <div id="instructiontxt"> Chose field of view image to upload</div>
+    <br>
 <div id="canvas">Click to draw<br/></div>
 <button onclick="clearPanel()">Clear</button>
+<button onclick="nextPanel()">Next</button>
  <input type="file" onchange="previewFile()"><br>
- <img src="" height="300" alt="Image preview...">
+ <img src="" height="0" alt="">
 </body>
 </html>
 
@@ -17,6 +20,13 @@
 function clearPanel() {
     ctx.addBack(my_image);
 }
+
+function nextPanel() {
+    ctx.addNext(my_image);
+}
+
+var color_marks = [];
+var curr_height = 1;
 
 function c(img) {
     // Creates a new canvas element and appends it as a child
@@ -39,8 +49,27 @@ function c(img) {
         // return canvas;
     }
 
+    function storeCoordinate(xVal, yVal, array) {
+        array.push({x: xVal, y: yVal});
+    }
+
+    function storeHeight(yVal, array){
+        array.push(yVal);
+    }
+
+    function getAverage(array){
+        var sum = 0;
+        for( var i = 0; i < array.length; i++ ){
+            sum += parseInt( array[i], 10 ); //don't forget to add the base
+        }
+
+        var avg = sum/array.length;
+        return avg;
+    }
+
     function init(container, width, height, fillColor) {
         var canvas = createCanvas(container, width, height);
+        var coords = [];
         ctx = canvas.context;
 
         // define a custom fillCircle method
@@ -59,14 +88,32 @@ function c(img) {
         // ctx.clearTo(fillColor || "#ddd");
 
         ctx.addBack = function (img){
-        	var image = new Image();
+        	var image = new Image()
         	image.onload = function () {
-        		console.log('here');
+        		console.log('here back');
         		ctx.drawImage(image, 0, 0, 800, 400);
         	}
         	image.src = img
         }
         ctx.addBack(img);
+
+        ctx.addNext = function (img){
+            var image = new Image()
+            image.onload = function () {
+                console.log('here next');
+                console.log(coords);
+                avg = getAverage(coords);
+                color_marks.push(avg);
+                coords = [];
+                instructiontxt.innerHTML = "If " + curr_height + " foot mark is visible use click to draw small horizontal line on mark, when done click next. If not visible, click next.";
+                curr_height += 1;
+                console.log(color_marks);
+                ctx.drawImage(image, 0, 0, 800, 400);
+            }
+            image.src = img
+        }
+        ctx.addNext(img);
+
 
         // bind mouse events
         canvas.node.onmousemove = function(e) {
@@ -77,7 +124,8 @@ function c(img) {
             var y = e.pageY - this.offsetTop;
             var radius = 5; // or whatever
             var fillColor = '#ff0000';
-            console.log(x);
+            // var coords = [];
+            storeHeight(y, coords);
             console.log(y);
             ctx.fillCircle(x, y, radius, fillColor);
         };
