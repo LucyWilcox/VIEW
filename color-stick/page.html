@@ -26,7 +26,9 @@ function nextPanel() {
 }
 
 var color_marks = [];
-var curr_height = 1;
+var curr_step = 0;
+var bottom_view = [];
+var height_map = {};
 
 function c(img) {
     // Creates a new canvas element and appends it as a child
@@ -62,8 +64,8 @@ function c(img) {
         for( var i = 0; i < array.length; i++ ){
             sum += parseInt( array[i], 10 ); //don't forget to add the base
         }
-
         var avg = sum/array.length;
+        avg = Math.round(avg);
         return avg;
     }
 
@@ -91,6 +93,7 @@ function c(img) {
         	var image = new Image()
         	image.onload = function () {
         		console.log('here back');
+                coords = [];
         		ctx.drawImage(image, 0, 0, 800, 400);
         	}
         	image.src = img
@@ -101,13 +104,25 @@ function c(img) {
             var image = new Image()
             image.onload = function () {
                 console.log('here next');
-                console.log(coords);
-                avg = getAverage(coords);
-                color_marks.push(avg);
-                coords = [];
-                instructiontxt.innerHTML = "If " + curr_height + " foot mark is visible use click to draw small horizontal line on mark, when done click next. If not visible, click next.";
-                curr_height += 1;
-                console.log(color_marks);
+                if (curr_step < 7) {
+                    console.log(coords);
+                    avg = getAverage(coords);
+                    color_marks.push(avg);
+                    coords = [];
+                    curr_step += 1;
+                    if (curr_step < 7) {
+                        instructiontxt.innerHTML = "If " + curr_step + " foot mark is visible use click to draw small horizontal line on mark, when done click next. If not visible, click next. Press clear if errors are made.";
+                    } else {
+                        instructiontxt.innerHTML = "Draw line along bottom of field of view.";
+                    }
+                    console.log(color_marks);
+                } else if (curr_step == 7) {
+                    console.log(curr_step);
+                    console.log(color_marks);
+                    createHeightMap();
+                    curr_step += 1;
+                    // console.log(coords);
+                }
                 ctx.drawImage(image, 0, 0, 800, 400);
             }
             image.src = img
@@ -125,8 +140,13 @@ function c(img) {
             var radius = 5; // or whatever
             var fillColor = '#ff0000';
             // var coords = [];
-            storeHeight(y, coords);
-            console.log(y);
+            if (curr_step < 7) {
+                storeHeight(y, coords);
+                // console.log(y);
+            } else {
+                storeCoordinate(x, y, coords);
+                // console.log(x, y);
+            }
             ctx.fillCircle(x, y, radius, fillColor);
         };
         canvas.node.onmousedown = function(e) {
@@ -167,6 +187,33 @@ function previewFile() {
     } else {
       preview.src = "";
     }
+}
+
+function createHeightMap(){
+    for (i = 0; i < color_marks.length; i++){
+        if (color_marks[i] & color_marks[i+1]){
+            var diff = color_marks[i] - color_marks[i+1];
+            var increment = 12 / diff;
+            var inches_val = i * 12;
+            for (j = color_marks[i]; j >= color_marks[i+1]; j--){
+                height_map[j] = inches_val;
+                inches_val += increment;
+            }
+
+        } else if (color_marks[i+1] & color_marks[i+2]){
+            var diff = color_marks[i+1] - color_marks[i+2];
+            var increment = 12 / diff;
+            var inches_val = i * 12;
+            console.log(color_marks[i + 1]- diff);
+            console.log(color_marks[i+1]);
+            for (j = color_marks[i + 1] + diff; j >= color_marks[i+1]; j--){
+                console.log(j);
+                height_map[j] = inches_val;
+                inches_val += increment;
+            }
+        }
+    }
+    console.log(height_map);
 }
 
 
