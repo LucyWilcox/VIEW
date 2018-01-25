@@ -29,6 +29,8 @@ var color_marks = [];
 var curr_step = 0;
 var bottom_view = [];
 var height_map = {};
+var driver_height = 108; // will need to be user entered
+var marks_dist = 72; 
 
 function c(img) {
     // Creates a new canvas element and appends it as a child
@@ -45,10 +47,6 @@ function c(img) {
         parent.appendChild(canvas.node);
 
         return canvas;
-        // canvas.node.width = width || 100;
-        // canvas.node.height = height || 100;
-        // parent.appendChild(canvas.node);
-        // return canvas;
     }
 
     function storeCoordinate(xVal, yVal, array) {
@@ -83,12 +81,6 @@ function c(img) {
             this.fill();
         };
 
-        // ctx.clearTo = function(fillColor) {
-        //     ctx.fillStyle = fillColor;
-        //     ctx.fillRect(0, 0, width, height);
-        // };
-        // ctx.clearTo(fillColor || "#ddd");
-
         ctx.addBack = function (img){
         	var image = new Image()
         	image.onload = function () {
@@ -119,9 +111,10 @@ function c(img) {
                 } else if (curr_step == 7) {
                     console.log(curr_step);
                     console.log(color_marks);
+                    bottom_view = coords;
                     createHeightMap();
-                    curr_step += 1;
-                    // console.log(coords);
+                    calcGroundIntersection();
+                    // curr_step += 1;
                 }
                 ctx.drawImage(image, 0, 0, 800, 400);
             }
@@ -144,6 +137,7 @@ function c(img) {
                 storeHeight(y, coords);
                 // console.log(y);
             } else {
+                console.log("logging double coords");
                 storeCoordinate(x, y, coords);
                 // console.log(x, y);
             }
@@ -214,6 +208,29 @@ function createHeightMap(){
         }
     }
     console.log(height_map);
+}
+
+function getTanDeg(deg) {
+  var rad = deg * Math.PI/180;
+  return Math.tan(rad);
+}
+
+function getATanDeg(deg) {
+  var rad = deg * Math.PI/180;
+  return Math.atan(rad);
+}
+
+function calcGroundIntersection(){
+    ground_intersections = [];
+    console.log(bottom_view);
+    for (i = 0; i < bottom_view.length; i++){
+        bottom_view_inches = height_map[Math.round(bottom_view[i].y)];
+        opposite_side = driver_height - bottom_view_inches;
+        fov_angle = getATanDeg(opposite_side/marks_dist);
+        ground_intersection = driver_height * getTanDeg(90-fov_angle);
+        ground_intersections.push(ground_intersection);
+    }
+    console.log(ground_intersections);
 }
 
 
