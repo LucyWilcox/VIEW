@@ -29,7 +29,7 @@ var color_marks = [];
 var curr_step = 0;
 var bottom_view = [];
 var height_map = {};
-var driver_height = 108; // will need to be user entered
+var driver_height = 58; // will need to be user entered
 var marks_dist = 72; 
 
 function c(img) {
@@ -137,7 +137,6 @@ function c(img) {
                 storeHeight(y, coords);
                 // console.log(y);
             } else {
-                console.log("logging double coords");
                 storeCoordinate(x, y, coords);
                 // console.log(x, y);
             }
@@ -198,37 +197,34 @@ function createHeightMap(){
             var diff = color_marks[i+1] - color_marks[i+2];
             var increment = 12 / diff;
             var inches_val = i * 12;
-            console.log(color_marks[i + 1]- diff);
-            console.log(color_marks[i+1]);
+            // console.log(color_marks[i + 1]- diff);
+            // console.log(color_marks[i+1]);
             for (j = color_marks[i + 1] + diff; j >= color_marks[i+1]; j--){
-                console.log(j);
+                // console.log(j);
                 height_map[j] = inches_val;
                 inches_val += increment;
             }
         }
     }
-    console.log(height_map);
+    // console.log(height_map);
 }
 
 function getTanDeg(deg) {
   var rad = deg * Math.PI/180;
   return Math.tan(rad);
-}
 
 function getATanDeg(deg) {
-  var rad = deg * Math.PI/180;
-  return Math.atan(rad);
+  return Math.atan(deg) * (180/Math.PI);
 }
 
 function calcGroundIntersection(){
     ground_intersections = [];
-    console.log(bottom_view);
     for (i = 0; i < bottom_view.length; i++){
         bottom_view_inches = height_map[Math.round(bottom_view[i].y)];
         opposite_side = driver_height - bottom_view_inches;
         fov_angle = getATanDeg(opposite_side/marks_dist);
         ground_intersection = driver_height * getTanDeg(90-fov_angle);
-        ground_intersections.push(ground_intersection);
+        ground_intersections.push(ground_intersection / 12); 
     }
     console.log(ground_intersections);
 }
