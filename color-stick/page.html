@@ -28,6 +28,9 @@ function nextPanel() {
 var color_marks = [];
 var curr_step = 0;
 var bottom_view = [];
+var bottom_view_driver = [];
+var bottom_view_front = [];
+var bottom_view_passenger = [];
 var height_map = {};
 var driver_height = 58; // will need to be user entered
 var marks_dist = 72; 
@@ -104,23 +107,34 @@ function c(img) {
                     curr_step += 1;
                     if (curr_step < 7) {
                         instructiontxt.innerHTML = "If " + curr_step + " foot mark is visible use click to draw small horizontal line on mark, when done click next. If not visible, click next. Press clear if errors are made.";
-                    } else {
-                        instructiontxt.innerHTML = "Draw line along bottom of field of view.";
+                    } else if (curr_step == 7) {
+                        instructiontxt.innerHTML = "Draw line along bottom of driver side field of view.";
+                        curr_step += 1;
                     }
                     console.log(color_marks);
-                } else if (curr_step == 7) {
-                    console.log(curr_step);
-                    console.log(color_marks);
-                    bottom_view = coords;
+                } else if (curr_step == 8) {
+                    // console.log(curr_step);
+                    // console.log(color_marks);
+                    bottom_view_driver = coords;
+                    instructiontxt.innerHTML = "Draw line along bottom of front field of view.";
+                    curr_step += 1
+                } else if (curr_step == 9) {
+                    bottom_view_front = coords;
+                    instructiontxt.innerHTML = "Draw line along bottom of passenger side field of view.";
+                    curr_step += 1;
+                } else {
+                    bottom_view_passenger = coords;
+                    // instructiontxt.innerHTML = "Draw line along bottom of passenger side field of view.";
+                    // curr_step += 1;
                     createHeightMap();
                     calcGroundIntersection();
-                    // curr_step += 1;
                 }
                 ctx.drawImage(image, 0, 0, 800, 400);
             }
-            image.src = img
+            image.src = img;
         }
         ctx.addNext(img);
+          
 
 
         // bind mouse events
@@ -219,6 +233,7 @@ function getATanDeg(deg) {
 
 function calcGroundIntersection(){
     ground_intersections = [];
+    Array.prototype.push.apply(bottom_view,bottom_view_driver, bottom_view_front, bottom_view_passenger)
     for (i = 0; i < bottom_view.length; i++){
         bottom_view_inches = height_map[Math.round(bottom_view[i].y)];
         opposite_side = driver_height - bottom_view_inches;
