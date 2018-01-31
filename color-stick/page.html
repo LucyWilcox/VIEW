@@ -153,7 +153,6 @@ function c(img) {
 
     var container = document.getElementById('canvas');
     init(container, 800, 400, '#ddd', img);
-
 };
 
 function previewFile() {
@@ -212,6 +211,7 @@ function createHeightMap(){
 function getTanDeg(deg) {
   var rad = deg * Math.PI/180;
   return Math.tan(rad);
+}
 
 function getATanDeg(deg) {
   return Math.atan(deg) * (180/Math.PI);
